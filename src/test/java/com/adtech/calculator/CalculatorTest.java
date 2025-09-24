@@ -10,7 +10,7 @@ public class CalculatorTest {
     @Test
     public void success() {
         Calculator calculator = new Calculator(1, 1);
-        assert calculator.divide() == 2;
+        assert calculator.divide() == 1;
     }
 
     @Test
